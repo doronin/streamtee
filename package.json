@@ -1,0 +1,19 @@
+{
+  "author": "Alexey Doronin",
+  "name": "streamtee",
+  "description": "tee for node.js streams",
+  "version": "0.0.1",
+  "main": "tee.js",
+  "engines": {
+    "node": ">=0.10.x"
+  },
+  "repository": {
+    "url": "git+ssh://github.com/doronin/streamtee.git"
+  },
+  "devDependencies": {
+    "tap": "0.4.8"
+  },
+  "scripts": {
+    "test": "node ./node_modules/tap/bin/tap.js --stderr ./test/test.js --tap"
+  }
+}
